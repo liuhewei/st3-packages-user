@@ -1,0 +1,12 @@
+{
+	"use_regex": true,
+	"whole_word": true,
+	"colors_by_scope": [
+		"variable.parameter",
+		"invalid.deprecated",
+		"support.function",
+		"string",
+		"entity.name.class",
+		"invalid"
+	]
+}

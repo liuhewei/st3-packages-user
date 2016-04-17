@@ -1,0 +1,10 @@
+[
+  {
+    "caption": "Run: Git",
+    "command": "runapp",
+    "args":{
+      "app": "D:\\Tools\\Git\\git-bash.exe",
+      "args": ["--cd=$DIR$"]
+    }
+  }
+]

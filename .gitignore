@@ -1,0 +1,18 @@
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.merged-ca-bundle
+Package Control.system-ca-bundle
+Package Control.user-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
+
+c2u_tmp/
+bh_unicode_properties.cache
+encoding_cache.json
+
+Run App.sublime-commands
+
+golang.sublime-settings
+TextPastryHistory.sublime-settings
+

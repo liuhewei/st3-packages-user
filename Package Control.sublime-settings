@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"ConvertToUTF8",
+		"Dockerfile Syntax Highlighting",
+		"GitGutter",
+		"GitHubinator",
+		"Golang Build",
+		"HighlightWords",
+		"HTMLBeautify",
+		"INI",
+		"Jedi - Python autocompletion",
+		"JsFormat",
+		"JsonTree",
+		"MarkdownEditing",
+		"Package Control",
+		"PackageResourceViewer",
+		"SaltStack-related syntax highlighting and snippets",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Text Pastry",
+		"TodoReview",
+		"WordHighlight",
+		"YAML Nav"
+	]
+}
