@@ -11,34 +11,14 @@
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"findreplace_small": true,
-	"folder_exclude_patterns":
-	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
-		".idea"
-	],
+	"folder_exclude_patterns": [ ".svn", ".git", ".hg", "CVS", ".idea" ],
+	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace", "*.zip" , "*.tgz", "*.tar.gz", "*.7z", "*.rar"],
 	"font_face": "Inconsolata",
 	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Markdown",
-		"Vintage"
-	],
-	"indent_guide_options":
-	[
-		"draw_active"
-	],
-	"index_exclude_patterns":
-	[
-		"*.rar",
-		"*.log",
-		"*.tar.gz",
-		"*.zip"
-	],
+	"ignored_packages": [ "Markdown", "Vintage" ],
+	"indent_guide_options": [ "draw_active" ],
 	"overlay_scroll_bars": "auto",
 	"preview_on_click": false,
 	"securityToken": "mellon",
