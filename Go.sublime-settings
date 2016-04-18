@@ -1,6 +1,8 @@
 {
-	"extensions":
-	[
-		"go"
-	]
+
+	// Controls what scopes auto complete will be triggered in
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string - constant.numeric",
+
+	// Additional situations to trigger auto complete
+	"auto_complete_triggers": [{"selector": "source.go - string - comment - constant.numeric", "characters": "."}]
 }
