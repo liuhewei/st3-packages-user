@@ -69,23 +69,21 @@
 	// Text Pastry
 	{ "keys": ["ctrl+shift+t"], "command": "text_pastry_show_menu" },
 
-	// GoOracle
-	{ "keys": ["ctrl+alt+o"], "command": "go_oracle"},
-	{ "keys": ["ctrl+alt+c"], "command": "go_oracle", "args": {"mode": "callers"} },
-
-	// Anaconda
-	{"command": "anaconda_goto", "keys": ["alt+."]},
-	{"command": "anaconda_find_usages", "keys": ["alt+space"]},
-	{"command": "anaconda_doc", "keys": ["alt+d"]},
-
 	// Sidebar
 	{ "keys": ["ctrl+n"], "command": "side_bar_new_file", "args": {"paths": []} },
 	{ "keys": ["f5"], "command": "refresh_folder_list"},
 
 	// JsonTree
 	{ "keys": [ "ctrl+r" ], "command": "json_tree", "context":
-      [
-        { "key": "selector", "operator": "equal", "operand": "source.json" }
-      ]
-  	},
+		[
+			{ "key": "selector", "operator": "equal", "operand": "source.json" }
+		]
+	},
+
+	// Golang
+	{ "keys": [ "alt+g" ], "command": "gotools_goto_def", "context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "source.go" }
+		]
+	}
 ]
